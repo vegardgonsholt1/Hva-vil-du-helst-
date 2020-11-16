@@ -2,13 +2,14 @@
 gruppeprosjekt
 
 ### Kravspesifikasjon
+
+### Overordnet beskrivelse: 
 #### Deltagere:
 - Andreas
 - Vegard
 - Sander
 - Jonas
 - Jostein
-### Overordnet beskrivelse: 
 En kortfattet beskrivelse av hva som skal lages.
 
 ### Hensikt: 
