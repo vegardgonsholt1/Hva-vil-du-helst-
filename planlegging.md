@@ -1,8 +1,13 @@
 # Hva-vil-du-helst-
 gruppeprosjekt
 
-## Kravspesifikasjon
-
+### Kravspesifikasjon
+#### Deltagere:
+- Andreas
+- Vegard
+- Sander
+- Jonas
+- Jostein
 ### Overordnet beskrivelse: 
 En kortfattet beskrivelse av hva som skal lages.
 
@@ -14,9 +19,4 @@ Helt konkrete punkter om hvordan systemet skal fungere. Disse punktene er ofte n
 Ofte grupperer man også sammen relaterte krav i hovedpunkter og underpunkter, slik at listen består av flere nivåer.
 
 
-#### Deltagere:
-- Andreas
-- Vegard
-- Sander
-- Jonas
-- Jostein
+
