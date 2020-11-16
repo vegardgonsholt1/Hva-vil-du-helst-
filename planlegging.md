@@ -17,7 +17,7 @@ Ofte grupperer man også sammen relaterte krav i hovedpunkter og underpunkter, s
 1. To div'er som tar opp mesteparten av skjermen. Begge div'ene skal være button slik at vi kan trykke hvor som helst på div'en.
 2. Et spørsmål skal vises på skjermen hvor du velger en av alternativene.
 3. Det skal vises i % hvor mange som har valgt hva nede i hjørne for begge div'ene.
-4. Man trykker på en "neste" og man får opp den samme skjermen bare med to nye sprøsmål.
+4. Man trykker på en "neste" og man får opp den samme skjermen bare med to nye spørsmål.
 
 #### Deltagere:
 - Andreas
