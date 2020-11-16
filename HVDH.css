@@ -53,3 +53,10 @@
 #blue:active {
     border: solid black 2px;
 }
+
+
+#neste{
+    left: 690px;
+    top: 200px;
+    position: absolute;
+}
