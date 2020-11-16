@@ -12,6 +12,9 @@
     height: 250px;
     border-radius: 50%;
     background-color: black;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
 }
 
 #red {
