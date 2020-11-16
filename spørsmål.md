@@ -1,5 +1,5 @@
 # Hva-vil-du-helst-
-Spørsmål:::
+Spørsmål::: (Trykk på rediger for å se i bra format)
 
 Alltid være 10 minutter forsinket                        (ELLER) Alltid være 20 minutter tidlig
 Ha en virkelig komme ut av fengselsfritt kort            (ELLER) En nøkkel som åpner en hvilken som helst dør
