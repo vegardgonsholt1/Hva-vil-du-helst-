@@ -1,0 +1,43 @@
+#main {
+    position: absolute;
+    
+    background-color: black;
+}
+
+#eller {
+    position: absolute;
+    top: 300px;
+    left: 600px;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+#red {
+    position: absolute;
+    width: 600px;
+    height: 700px;
+    background-color: red;
+    left: 820px;
+    top: 80px;
+    border-radius: 5%;
+}
+
+#red:active {
+    border: solid black 2px;
+}
+
+#blue {
+    position: absolute;
+    width: 600px;
+    height: 700px;
+    background-color: blue;
+    left: 20px;
+    top: 80px;
+    border-radius: 5%;
+}
+
+#blue:active {
+    border: solid black 2px;
+}
