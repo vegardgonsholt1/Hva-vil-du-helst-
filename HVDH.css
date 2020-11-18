@@ -1,3 +1,4 @@
+
 #HVDH{
     color: white;
     position: absolute;
@@ -74,4 +75,18 @@
     left: 690px;
     top: 200px;
     position: absolute;
+}
+
+#textr {
+    font-size: xx-large;
+    color: white;
+    text-align: center;
+    line-height: 500px;
+}
+
+#textb {
+    font-size: xx-large;
+    color: white;
+    text-align: center;
+    line-height: 500px;
 }
