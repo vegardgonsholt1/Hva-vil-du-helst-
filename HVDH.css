@@ -44,7 +44,9 @@
 }
 
 #red:active {
-    box-shadow: -2px 2px 2px;
+    box-shadow: -3px 3px ;
+    transform: translateY(2px) translateX(-2px);
+    
 }
 
 #blue {
@@ -58,11 +60,13 @@
 }
 
 #blue:hover {
-    border: solid black 1px;
+    border: solid black 0;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
 #blue:active {
-    box-shadow: 2px 2px 2px 2px;
+    box-shadow: 3px 3px ;
+    transform: translateY(2px) translateX(2px);
 }
 
 
