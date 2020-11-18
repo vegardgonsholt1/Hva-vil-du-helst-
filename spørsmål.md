@@ -8,7 +8,7 @@ Tilbringe resten av livet med en seilbåt som ditt hjem   (ELLER) En bobil som d
 Bli tvunget til å danse hver gang du hører musikk        (ELLER) Bli tvunget til å synge med på en sang du har hørt
 Ha en brudekjole / smoking hver eneste dag               (ELLER) Bruke badedrakt hver eneste dag
 At alle hunder prøver å angripe deg når de ser deg       (ELLER) At alle fugler prøver å angripe deg når de ser deg
-Batman                                                   (ELLER) Superman
+Være batman                                              (ELLER) Være superman
 Være en berømt regissør                                  (ELLER) En berømt skuespiller
 Kunne kontrollere brann                                  (ELLER) Kunne kontrollere vann
 Ikke kunne bruke søkemotorer                             (ELLER) Ikke kunne bruke sosiale medier
