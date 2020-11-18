@@ -1,7 +1,6 @@
 # Hva-vil-du-helst-
 Gruppeprosjekt
 
-https://code.sololearn.com/WPQLqC4pF99m/#js
 
 
 ## Kravspesifikasjon
