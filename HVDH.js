@@ -116,3 +116,8 @@ const choice = [
         question:"Be able to control water"
     }
 ];
+
+function setup(){
+    document.getElementById("red");
+    document.getElementById("blue");
+}
