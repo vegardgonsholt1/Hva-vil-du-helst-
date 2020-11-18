@@ -140,26 +140,25 @@ const choice = [
 
 
 var howMany;
-var k = Math.floor(Math.random()*choice.length);
-if (k%2!==0) k++;
-function valg(){
-    if (k == choice.length) k=0;
-    howMany=Math.floor(Math.random()*100);
-    document.getElementById("red").removeEventListener("click",valg);
-    document.getElementById("blue").removeEventListener("click",valg);
+var k = Math.floor(Math.random() * choice.length);
+if (k % 2 !== 0) k++;
+function valg() {
+    if (k == choice.length) k = 0;
+    howMany = Math.floor(Math.random() * 100);
+    document.getElementById("red").removeEventListener("click", valg);
+    document.getElementById("blue").removeEventListener("click", valg);
 
-            document.getElementById("textb").innerText=choice[k+1].question;
-        document.getElementById("textr").innerText=choice[k].question;
-    
-        document.getElementById("red").addEventListener("click",valg);
-    document.getElementById("blue").addEventListener("click",valg);
-        k+=2;
-    
+    document.getElementById("textb").innerText = choice[k + 1].question;
+    document.getElementById("textr").innerText = choice[k].question;
+
+    document.getElementById("red").addEventListener("click", valg);
+    document.getElementById("blue").addEventListener("click", valg);
+    k += 2;
 }
 
 
-window.onload=function(){
+window.onload = function () {
     valg();
-    document.getElementById("red").addEventListener("click",valg);
-    document.getElementById("blue").addEventListener("click",valg);
+    document.getElementById("red").addEventListener("click", valg);
+    document.getElementById("blue").addEventListener("click", valg);
 };
