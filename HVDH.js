@@ -118,6 +118,14 @@ const choice = [
 ];
 
 function setup(){
-    document.getElementById("red");
-    document.getElementById("blue");
+   const divRed = document.getElementById("red");
+    const divBlue = document.getElementById("blue");
+    divRed.addEventListener("click", rødvalg);
+    divBlue.addEventListener("click", blåvalg);
+    function blåvalg(){
+
+    }
+    function rødvalg(){
+        
+    }
 }
