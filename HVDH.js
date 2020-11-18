@@ -8,7 +8,7 @@ const choice = [
         question: "En nøkkel som åpner en hvilken som helst dør"
     },
     {
-        question: "Ha at alle trafikklys du nærmerforsinket deg er grønne"
+        question: "Ha at alle trafikklys du nærmer deg blir grønne"
     },
     {
         question: "Aldri trenger å stå i kø igjen",
@@ -135,15 +135,31 @@ const choice = [
     }
 ];
 
-function setup() {
-    const divRed = document.getElementById("red");
-    const divBlue = document.getElementById("blue");
-    divRed.addEventListener("click", rødvalg);
-    divBlue.addEventListener("click", blåvalg);
-    function blåvalg() {
 
-    }
-    function rødvalg() {
 
-    }
+
+
+var howMany;
+var k = Math.floor(Math.random()*choice.length);
+if (k%2!==0) k++;
+function valg(){
+    if (k == choice.length) k=0;
+    howMany=Math.floor(Math.random()*100);
+    document.getElementById("red").removeEventListener("click",valg);
+    document.getElementById("blue").removeEventListener("click",valg);
+
+            document.getElementById("textb").innerText=choice[k+1].question;
+        document.getElementById("textr").innerText=choice[k].question;
+    
+        document.getElementById("red").addEventListener("click",valg);
+    document.getElementById("blue").addEventListener("click",valg);
+        k+=2;
+    
 }
+
+
+window.onload=function(){
+    valg();
+    document.getElementById("red").addEventListener("click",valg);
+    document.getElementById("blue").addEventListener("click",valg);
+};
