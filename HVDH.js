@@ -2,130 +2,148 @@
 
 const choice = [
     {
-        question:"Hytte på fjellet"
+        question: "Ha en virkelig komme ut av fengselsfritt kort"
     },
     {
-        question:"Hytte ved sjøen "
+        question: "En nøkkel som åpner en hvilken som helst dør"
     },
     {
-        question:"Drive a a car 5 minutes with closed eyes"
+        question: "Ha at alle trafikklys du nærmerforsinket deg er grønne"
     },
     {
-        question:"Cross a water, on your bike",
+        question: "Aldri trenger å stå i kø igjen",
     },
     {
-        question:"Lose the ability to speak"
+        question: "Tilbringe resten av livet med en seilbåt som ditt hjem"
     },
     {
-        question:"Lose the ability to read."
+        question: "En bobil som ditt hjem"
     },
     {
-        question:"Be covered in fur"
+        question: "Bli tvunget til å danse hver gang du hører musikk"
     },
     {
-        question:"Be covered in scales"
+        question: "Bli tvunget til å synge med på en sang du har hørt"
     },
     {
-        question:"Be in jail for a year."
+        question: "Ha en brudekjole / smoking hver eneste dag"
     },
     {
-        question:"Lose a year of your life."
+        question: "Bruke badedrakt hver eneste dag"
     },
     {
-        question:"Always be 10 minutes late"
+        question: "At alle hunder prøver å angripe deg når de ser deg"
     },
     {
-        question:"Always be 20 minutes early"
+        question: "At alle fugler prøver å angripe deg når de ser deg"
     },
     {
-        question:"Know the history of every object you touch"
+        question: "Være batman"
     },
     {
-        question:"Be able to talk to animals"
+        question: "Være superman"
     },
     {
-        question:"Give up drinking anything except water"
+        question: "Være en berømt regissør"
     },
     {
-        question:"Give up eating anything that was cooked in a oven"
+        question: "En berømt skuespiller"
     },
     {
-        question:"Be able to see 10 minutes in your future"
+        question: "Kunne kontrollere brann"
     },
     {
-        question:"Be able to see 10 minutes of anyone but yourself "
+        question: "Kunne kontrollere vann"
     },
     {
-        question:"Have an easy job, working for someone else"
+        question: "Ikke kunne bruke søkemotorer"
     },
     {
-        question:"Work for yourself, but work incredibly hard"
+        question: "Ikke kunne bruke sosiale medier"
     },
     {
-        question:"Be the first to explore a planet"
+        question: "Være helt usynlig i en dag"
     },
     {
-        question:"Be the inventor of a drug that cures a deadly disease"
+        question: "Kunne fly i en dag"
     },
     {
-        question:"Go back to age 5, with everything you know"
+        question: "Aldri kunne bruke berøringsskjerm"
     },
     {
-        question:"Know now everything your future self will know"
+        question: "Aldri kunne bruke tastatur og mus"
     },
     {
-        question:"See what is after every closed door"
+        question: "Få en gratis internasjonal flybillett tur-retur hvert år"
     },
     {
-        question:"Be able to guess the combination of every safe on the first try"
+        question: "kunne fly innenlands når som helst gratis"
     },
     {
-        question:"Be a average person in the present",
+        question: "Gi opp dusjing/bading i en måned ",
     },
     {
-        question:"Be the king of a large country, but 2500 years ago"
+        question: "Gi opp internett i en måned"
     },
     {
-        question:"Be able to dodge anything"
+        question: "Gi opp å se på TV / filmer i et år "
     },
     {
-        question:"Be able to ask 3 questions, and get accurate answers."
+        question: "Gi opp å spille spill i et år"
     },
     {
-        question:"Be forced to dance every time you heard music"
+        question: "Elton John"
     },
     {
-        question:"Be forced to sing along to any song you heard"
+        question: "Mickael Jackson"
     },
     {
-        question:"Move in a new city or town every month"
+        question: "Aldri gå tom for batteristrøm på noe"
     },
     {
-        question:"Never be able to leave the city or town you were born in"
+        question: "Har ha alltid gratis raskt Wi-Fi uansett hvor du går"
     },
     {
-        question:"Be a OP character in virtual reallity"
+        question: "Gå din normale dag, men naken"
     },
     {
-        question:"Be in real life, but you can't interact with anyone or anything"
+        question: "Sovne i et helt år"
     },
     {
-        question:"Be able to control fire"
+        question: "Være rik og stygg"
     },
     {
-        question:"Be able to control water"
+        question: "Dårlig og flink"
+    },
+    {
+        question: "Finne ekte kjærlighet"
+    },
+    {
+        question: "Få 10 millioner dollar"
+    },
+    {
+        question: "Hytte ved sjøen"
+    },
+    {
+        question: "Hytte på fjellet"
+    },
+    {
+        question: "Kaste opp hver gang du får en orgasme"
+    },
+    {
+        question: "Få kjønnsorganene til å se og lukte som råtne egg"
     }
 ];
 
-function setup(){
-   const divRed = document.getElementById("red");
+function setup() {
+    const divRed = document.getElementById("red");
     const divBlue = document.getElementById("blue");
     divRed.addEventListener("click", rødvalg);
     divBlue.addEventListener("click", blåvalg);
-    function blåvalg(){
+    function blåvalg() {
 
     }
-    function rødvalg(){
+    function rødvalg() {
 
     }
 }
