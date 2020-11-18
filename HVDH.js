@@ -2,10 +2,10 @@
 
 const choice = [
     {
-        question:"Not eat Pizza ever again."
+        question:"Hytte på fjellet"
     },
     {
-        question:"Not drink Coffe ever again."
+        question:"Hytte ved sjøen "
     },
     {
         question:"Drive a a car 5 minutes with closed eyes"
@@ -126,6 +126,6 @@ function setup(){
 
     }
     function rødvalg(){
-        
+
     }
 }
