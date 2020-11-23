@@ -156,3 +156,13 @@ window.onload = function () {
     document.getElementById("red").addEventListener("click", valg);
     document.getElementById("blue").addEventListener("click", valg);
 };
+
+function serverStart() {
+    localStorage.setItem("valg", JSON.stringify([]));
+}
+
+function serverStem(snr) {
+    const strStatus = localStorage.getItem("valg");
+    const status = JSON.parse(strStatus);
+    const finnes = status.any(e => e.snr === snr).length === 1;
+}   
