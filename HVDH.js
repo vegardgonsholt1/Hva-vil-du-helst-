@@ -2,13 +2,13 @@
 
 const choice = [
     {
-        question: "Ha en virkelig komme ut av fengselsfritt kort"
+        question: "Ha en ekte 'komme ut av fengsels gratis' kort"
     },
     {
         question: "En nøkkel som åpner en hvilken som helst dør"
     },
     {
-        question: "Ha at alle trafikklys du nærmer deg blir grønne"
+        question: "Alle trafikklys du nærmer deg blir grønne"
     },
     {
         question: "Aldri trenger å stå i kø igjen",
@@ -17,7 +17,7 @@ const choice = [
         question: "Tilbringe resten av livet med en seilbåt som ditt hjem"
     },
     {
-        question: "En bobil som ditt hjem"
+        question: "Tilbringe resten av livet med en bobil som ditt hjem"
     },
     {
         question: "Bli tvunget til å danse hver gang du hører musikk"
@@ -26,7 +26,7 @@ const choice = [
         question: "Bli tvunget til å synge med på en sang du har hørt"
     },
     {
-        question: "Ha en brudekjole / smoking hver eneste dag"
+        question: "Ha på en brudekjole / smoking hver eneste dag"
     },
     {
         question: "Bruke badedrakt hver eneste dag"
@@ -77,7 +77,7 @@ const choice = [
         question: "Få en gratis internasjonal flybillett tur-retur hvert år"
     },
     {
-        question: "kunne fly innenlands når som helst gratis"
+        question: "Kunne fly innenlands når som helst gratis"
     },
     {
         question: "Gi opp dusjing/bading i en måned ",
@@ -113,7 +113,7 @@ const choice = [
         question: "Være rik og stygg"
     },
     {
-        question: "Dårlig og flink"
+        question: "Dårlig og fin"
     },
     {
         question: "Finne ekte kjærlighet"
@@ -142,8 +142,8 @@ function valg() {
     document.getElementById("red").removeEventListener("click", valg);
     document.getElementById("blue").removeEventListener("click", valg);
 
-    document.getElementById("textb").innerText = choice[k + 1].question;
-    document.getElementById("textr").innerText = choice[k].question;
+    document.getElementById("textb").innerText = choice[k].question;
+    document.getElementById("textr").innerText = choice[k + 1].question;
 
     document.getElementById("red").addEventListener("click", valg);
     document.getElementById("blue").addEventListener("click", valg);
