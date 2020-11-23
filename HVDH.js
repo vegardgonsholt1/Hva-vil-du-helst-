@@ -8,7 +8,7 @@ const choice = [
         question: "En nøkkel som åpner en hvilken som helst dør"
     },
     {
-        question: "Ha at alle trafikklys du nærmer deg blir grønne"
+        question: "Alle trafikklys du nærmer deg blir grønne"
     },
     {
         question: "Aldri trenger å stå i kø igjen",
@@ -17,7 +17,7 @@ const choice = [
         question: "Tilbringe resten av livet med en seilbåt som ditt hjem"
     },
     {
-        question: "En bobil som ditt hjem"
+        question: "Tilbringe resten av livet med en bobil som ditt hjem"
     },
     {
         question: "Bli tvunget til å danse hver gang du hører musikk"
