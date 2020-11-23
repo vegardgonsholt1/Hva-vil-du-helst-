@@ -113,7 +113,7 @@ const choice = [
         question: "Være rik og stygg"
     },
     {
-        question: "Dårlig og flink"
+        question: "Dårlig og fin"
     },
     {
         question: "Finne ekte kjærlighet"
@@ -142,8 +142,8 @@ function valg() {
     document.getElementById("red").removeEventListener("click", valg);
     document.getElementById("blue").removeEventListener("click", valg);
 
-    document.getElementById("textb").innerText = choice[k + 1].question;
-    document.getElementById("textr").innerText = choice[k].question;
+    document.getElementById("textb").innerText = choice[k].question;
+    document.getElementById("textr").innerText = choice[k + 1].question;
 
     document.getElementById("red").addEventListener("click", valg);
     document.getElementById("blue").addEventListener("click", valg);
