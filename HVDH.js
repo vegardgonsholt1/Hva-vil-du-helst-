@@ -164,5 +164,18 @@ function serverStart() {
 function serverStem(snr) {
     const strStatus = localStorage.getItem("valg");
     const status = JSON.parse(strStatus);
-    const finnes = status.find(e => e.snr === snr)
+    const finnes = status.find(e => e.snr === snr);
+    if (finnes) {
+        finnes.antall += 1;
+    } else {
+        status.push({snr, antall:1});
+    }
+    const saveJSON = JSON.stringify(status);
+    localStorage.setItem("valg", saveJSON);
+    const idx = Math.floor (snr/2) * 2;
+    return { first:status[idx], second:status[idx+1]}
 }   
+
+//const resultat = serverStem(2);
+//resultat.first.antall;
+//resultat.second.antall;
