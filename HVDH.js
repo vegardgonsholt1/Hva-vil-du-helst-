@@ -129,9 +129,6 @@ const choice = [
     },
     {
         question: "Kaste opp hver gang du får en orgasme"
-    },
-    {
-        question: "Få kjønnsorganene til å se og lukte som råtne egg"
     }
 ];
 
