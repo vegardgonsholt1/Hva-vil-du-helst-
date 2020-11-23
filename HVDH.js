@@ -26,7 +26,7 @@ const choice = [
         question: "Bli tvunget til å synge med på en sang du har hørt"
     },
     {
-        question: "Ha en brudekjole / smoking hver eneste dag"
+        question: "Ha på en brudekjole / smoking hver eneste dag"
     },
     {
         question: "Bruke badedrakt hver eneste dag"
@@ -77,7 +77,7 @@ const choice = [
         question: "Få en gratis internasjonal flybillett tur-retur hvert år"
     },
     {
-        question: "kunne fly innenlands når som helst gratis"
+        question: "Kunne fly innenlands når som helst gratis"
     },
     {
         question: "Gi opp dusjing/bading i en måned ",
