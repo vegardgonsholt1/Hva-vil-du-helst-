@@ -2,7 +2,7 @@
 
 const choice = [
     {
-        question: "Ha en virkelig komme ut av fengselsfritt kort"
+        question: "Ha en ekte 'komme ut av fengsels gratis'kort"
     },
     {
         question: "En nøkkel som åpner en hvilken som helst dør"
