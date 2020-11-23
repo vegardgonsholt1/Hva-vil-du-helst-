@@ -126,9 +126,6 @@ const choice = [
     },
     {
         question: "Hytte på fjellet"
-    },
-    {
-        question: "Kaste opp hver gang du får en orgasme"
     }
 ];
 
