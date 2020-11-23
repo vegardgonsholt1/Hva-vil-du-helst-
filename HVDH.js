@@ -164,5 +164,5 @@ function serverStart() {
 function serverStem(snr) {
     const strStatus = localStorage.getItem("valg");
     const status = JSON.parse(strStatus);
-    const finnes = status.any(e => e.snr === snr).length === 1;
+    const finnes = status.find(e => e.snr === snr)
 }   
