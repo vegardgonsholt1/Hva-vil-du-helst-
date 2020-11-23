@@ -73,6 +73,8 @@
     left: 690px;
     top: 200px;
     position: absolute;
+    background-color: black;
+    color: white;
 }
 
 #textr {
