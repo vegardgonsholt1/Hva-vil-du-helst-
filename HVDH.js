@@ -147,7 +147,7 @@ function valg() {
 
     document.getElementById("red").addEventListener("click", valg);
     document.getElementById("blue").addEventListener("click", valg);
-    k += 2;
+    //k += 2;
 }
 
 
