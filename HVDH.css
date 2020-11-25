@@ -29,10 +29,10 @@
 
 #red {
     position: absolute;
-    width: 42%;
+    width: calc(100%/2.5);
     height: 85%;
     background-color: red;
-    left: 820px;
+    left: calc(100%/1.7);
     top: 80px;
     border-radius: 5%;
 }
@@ -50,10 +50,10 @@
 
 #blue {
     position: absolute;
-    width: 42%;
+    width: calc(100%/2.5);
     height: 85%;
     background-color: blue;
-    left: 20px;
+    left: calc(100%/55);
     top: 80px;
     border-radius: 5%;
 }
@@ -82,8 +82,6 @@
     font-size: xx-large;
     color: white;
     text-align: center;
-    line-height: 500px;
-    word-wrap: break-word;
 }
 
 #textb {
@@ -92,6 +90,4 @@
     font-size: xx-large;
     color: white;
     text-align: center;
-    line-height: 500px;
-    word-wrap: break-word;
 }
