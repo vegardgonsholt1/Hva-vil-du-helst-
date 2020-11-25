@@ -82,6 +82,7 @@
     color: white;
     text-align: center;
     line-height: 500px;
+    word-wrap: break-word;
 }
 
 #textb {
@@ -89,4 +90,5 @@
     color: white;
     text-align: center;
     line-height: 500px;
+    word-wrap: break-word;
 }
