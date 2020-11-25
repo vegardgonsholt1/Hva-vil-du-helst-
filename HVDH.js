@@ -32,10 +32,10 @@ const choice = [
         question: "Bruke badedrakt hver eneste dag"
     },
     {
-        question: "At alle hunder prøver å angripe deg når de ser deg"
+        question: "At alle hunder prøver å angripe <br> deg når de ser deg"
     },
     {
-        question: "At alle fugler prøver å angripe deg når de ser deg"
+        question: "At alle fugler prøver å angripe <br> deg når de ser deg"
     },
     {
         question: "Være batman"
@@ -74,7 +74,7 @@ const choice = [
         question: "Aldri mer bruke tastatur og mus"
     },
     {
-        question: "Få en gratis internasjonal flybillett tur-retur hvert år"
+        question: "Få en gratis internasjonal <br> flybillett tur-retur hvert år"
     },
     {
         question: "Kunne fly innenlands når som helst gratis"
@@ -142,8 +142,8 @@ function valg() {
     document.getElementById("red").removeEventListener("click", valg);
     document.getElementById("blue").removeEventListener("click", valg);
 
-    document.getElementById("textb").innerText = choice[k].question;
-    document.getElementById("textr").innerText = choice[k + 1].question;
+    document.getElementById("textb").innerHTML = choice[k].question;
+    document.getElementById("textr").innerHTML = choice[k + 1].question;
 
     document.getElementById("red").addEventListener("click", valg);
     document.getElementById("blue").addEventListener("click", valg);

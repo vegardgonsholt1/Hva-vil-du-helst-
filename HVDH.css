@@ -78,6 +78,7 @@
 }
 
 #textr {
+    margin-top: 40%;
     font-size: xx-large;
     color: white;
     text-align: center;
@@ -85,6 +86,8 @@
 }
 
 #textb {
+    margin-top: 40%;
+    top: 40%;
     font-size: xx-large;
     color: white;
     text-align: center;
