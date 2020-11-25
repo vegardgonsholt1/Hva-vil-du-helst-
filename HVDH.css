@@ -82,7 +82,8 @@
     font-size: xx-large;
     color: white;
     text-align: center;
-    /*line-height: 500px;*/
+    line-height: 500px;
+    word-wrap: break-word;
 }
 
 #textb {
@@ -91,5 +92,6 @@
     font-size: xx-large;
     color: white;
     text-align: center;
-    /*line-height: 500px;
+    line-height: 500px;
+    word-wrap: break-word;
 }
