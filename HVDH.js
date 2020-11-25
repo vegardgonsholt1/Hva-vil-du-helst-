@@ -2,16 +2,16 @@
 
 const choice = [
     {
-        question: "Ha en ekte 'komme ut av fengsels gratis' kort"
+        question: "Ha ett ekte 'komme ut av fengsels gratis' kort"
     },
     {
-        question: "En nøkkel som åpner en hvilken som helst dør"
+        question: "En nøkkel som åpner alle dører"
     },
     {
         question: "Alle trafikklys du nærmer deg blir grønne"
     },
     {
-        question: "Aldri trenger å stå i kø igjen",
+        question: "Aldri trenge å stå i kø igjen",
     },
     {
         question: "Tilbringe resten av livet med en seilbåt som ditt hjem"
@@ -23,7 +23,7 @@ const choice = [
         question: "Bli tvunget til å danse hver gang du hører musikk"
     },
     {
-        question: "Bli tvunget til å synge med på en sang du har hørt"
+        question: "Bli tvunget til å synge med på hver sang du hører"
     },
     {
         question: "Ha på en brudekjole / smoking hver eneste dag"
@@ -47,10 +47,10 @@ const choice = [
         question: "Være en berømt regissør"
     },
     {
-        question: "En berømt skuespiller"
+        question: "Være en berømt skuespiller"
     },
     {
-        question: "Kunne kontrollere brann"
+        question: "Kunne kontrollere flammer"
     },
     {
         question: "Kunne kontrollere vann"
@@ -62,16 +62,16 @@ const choice = [
         question: "Ikke kunne bruke sosiale medier"
     },
     {
-        question: "Være helt usynlig i en dag"
+        question: "Være usynlig i en dag"
     },
     {
         question: "Kunne fly i en dag"
     },
     {
-        question: "Aldri kunne bruke berøringsskjerm"
+        question: "Aldri mer bruke berøringskjerm"
     },
     {
-        question: "Aldri kunne bruke tastatur og mus"
+        question: "Aldri mer bruke tastatur og mus"
     },
     {
         question: "Få en gratis internasjonal flybillett tur-retur hvert år"
@@ -80,40 +80,40 @@ const choice = [
         question: "Kunne fly innenlands når som helst gratis"
     },
     {
-        question: "Gi opp dusjing/bading i en måned ",
+        question: "Ikke dusje/bade i en måned ",
     },
     {
-        question: "Gi opp internett i en måned"
+        question: "Ikke bruke internett i en måned"
     },
     {
-        question: "Gi opp å se på TV / filmer i et år "
+        question: "Ikke kunne se på TV / filmer i et år "
     },
     {
-        question: "Gi opp å spille spill i et år"
+        question: "Ikke kunne spille spill i et år"
     },
     {
         question: "Elton John"
     },
     {
-        question: "Mickael Jackson"
+        question: "Michael Jackson"
     },
     {
-        question: "Aldri gå tom for batteristrøm på noe"
+        question: "Aldri gå tom for batteri på noe"
     },
     {
-        question: "Har ha alltid gratis raskt Wi-Fi uansett hvor du går"
+        question: "Alltid ha gratis raskt Wi-Fi overalt"
     },
     {
-        question: "Gå din normale dag, men naken"
+        question: "Ha en normal hverdag, men naken"
     },
     {
-        question: "Sovne i et helt år"
+        question: "Sove i et helt år"
     },
     {
         question: "Være rik og stygg"
     },
     {
-        question: "Dårlig og fin"
+        question: "Være fattig og fin"
     },
     {
         question: "Finne ekte kjærlighet"
