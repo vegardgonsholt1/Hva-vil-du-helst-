@@ -78,15 +78,18 @@
 }
 
 #textr {
+    margin-top: 40%;
     font-size: xx-large;
     color: white;
     text-align: center;
-    line-height: 500px;
+    /*line-height: 500px;*/
 }
 
 #textb {
+    margin-top: 40%;
+    top: 40%;
     font-size: xx-large;
     color: white;
     text-align: center;
-    line-height: 500px;
+    /*line-height: 500px;
 }
