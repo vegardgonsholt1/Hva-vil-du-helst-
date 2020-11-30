@@ -7,6 +7,7 @@
     width: 400px;
     text-align: center;
     border-radius: 10px;
+    cursor: default;
 }
 
 #main { 
@@ -25,6 +26,7 @@
     text-align: center;
     line-height: 200px;
     text-decoration: underline;
+    cursor: default;
 }
 
 #red {
@@ -35,17 +37,24 @@
     left: calc(100%/1.7);
     top: 80px;
     border-radius: 5%;
+    display: inline-block;
+    transition: 0.5s;
+    cursor: pointer;
 }
 
 #red:hover {
     border: solid black 0;
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    background-color: tomato;
+    display: inline-block;
+    transition: 1s;
 }
 
 #red:active {
     box-shadow: -3px 3px ;
     transform: translateY(2px) translateX(-2px);
-    
+    transition: none;
+
 }
 
 #blue {
@@ -56,16 +65,23 @@
     left: calc(100%/55);
     top: 80px;
     border-radius: 5%;
+    display: inline-block;
+    transition: 0.5s;
+    cursor: pointer;
 }
 
 #blue:hover {
     border: solid black 0;
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    background-color: cornflowerblue;
+    display: inline-block;
+    transition: 1s;
 }
 
 #blue:active {
     box-shadow: 3px 3px ;
     transform: translateY(2px) translateX(2px);
+    transition: none;
 }
 
 
@@ -80,6 +96,21 @@
     background-color: black;
     color: white;
     cursor: pointer;
+    border-radius: 5px;
+    display: inline-block;
+    transition: 1s;
+}
+
+#neste:hover {
+    background-color: yellow;
+    color: black;
+    display: inline-block;
+    transition: 1s;
+}
+
+#neste:active {
+    box-shadow: 1px 1px;
+    transform: tran/slateX(1px) trans/lateY(1px);
 }
 
 #textr {
