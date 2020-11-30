@@ -15,7 +15,7 @@
 
 #eller {
     position: absolute;
-    top: 300px;
+    top: calc(100%/3);
     left: calc(100%/2.4);
     width: 250px;
     height: 250px;
