@@ -97,20 +97,11 @@
     color: white;
     cursor: pointer;
     border-radius: 5px;
-    display: inline-block;
-    transition: 1s;
-}
-
-#neste:hover {
-    background-color: yellow;
-    color: black;
-    display: inline-block;
-    transition: 1s;
 }
 
 #neste:active {
-    box-shadow: 1px 1px;
-    transform: tran/slateX(1px) trans/lateY(1px);
+    box-shadow: 2px 2px gray;
+    transform: translateX(1px) translateY(1px);
 }
 
 #textr {
