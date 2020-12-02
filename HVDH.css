@@ -99,6 +99,11 @@
     border-radius: 5px;
 }
 
+#neste:hover {
+    background-image: linear-gradient(to right, blue, red);
+}
+
+
 #neste:active {
     box-shadow: 2px 2px gray;
     transform: translateX(1px) translateY(1px);
